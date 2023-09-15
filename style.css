@@ -15,6 +15,7 @@ header{
     background-repeat: no-repeat;
     height: 31vh;
     background-size: cover; /* to strach image on left and right side */
+    box-shadow: 0px 0px 8px black;
 }
 
 header input{
@@ -59,6 +60,7 @@ header input{
     margin:auto;
     padding: 30px;
     border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
 }
 
 ol li{
