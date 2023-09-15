@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #edd4d4;
+}
+
+header{
+    background: url(./coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 31vh;
+    background-size: cover; /* to strach image on left and right side */
+}
+
+header input{
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(99, 18, 18,1);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.coffee{
+    height: 30vh;
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.image{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.coffee img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 18px black;
+}
+
+.para{
+    background-color: #d7a1a1;
+    color: #a52a2a;
+    width: 90%;
+    margin:auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+ol li{
+    line-height: 35px;
+}
